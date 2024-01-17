@@ -6,12 +6,74 @@
         rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
         crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet">
-
+    <link href="src/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/145de01c62.js"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
+    <div id="body">
+        <div class="card">
+            <header class="card-header">
+                <input type="search" id="gsearch" name="gsearch">
+                <input type="submit" id="button" value="Search">
+
+            </header>
+
+            <div class="information">
+                <div class="left-part">
+
+                <div class="city">
+
+                    Paris
+
+                </div>
+                <div class="date">
+                    tuesday,14:20,scattered clouds
+                </div>
+                <div class="humidity">
+                    humidity<strong>%80</strong>,wind<strong>3.13km/h</strong>
+
+                </div>
+            </div>
+            
+                <div class="right-part">
+                    <div class="icon">
+                        <span style="font-size: 3em; color: rgb(211, 202, 22);">
+                            <i class="fa-solid fa-sun fa-beat-fade"
+                                style="--fa-beat-fade-opacity: 0.60; --fa-beat-fade-scale: 1.075;"></i></div>
+                    </span>
+                    <div class="degree">12</div>
+                    <div class="c">C</div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                this project was coded by
+                <a href="https://github.com/samaneh-movafaghi">Samaneh</a>
+                and is on
+                <a
+                    href="https://github.com/samaneh-movafaghi/weatherChecker">Github</a>
+                and
+                <a href="https://weather-cheching.netlify.app/">hosted on
+                    Netlify</a>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+<!-- <div class="container">
         <div class="row1" id="card">
             <div class="card" style="margin-top: 30px;">
                 <div class="card-body">
@@ -66,6 +128,7 @@
                                         <a href="https://github.com/samaneh-movafaghi/weatherChecker">Github</a>
                                         and
                                         <a href="https://weather-cheching.netlify.app/">hosted on Netlify</a>
+
                                     </div>
                             </footer>
                     </div>
@@ -76,6 +139,4 @@
 
         </div>
 
-    </div>
-    <script src="script.js"></script>
-</body>
+    </div> -->
