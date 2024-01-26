@@ -7,7 +7,7 @@ body{
     max-width: 600px;
     margin: 0 auto 30px;
     margin-top: 40px;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    box-shadow: 0 30px 50px rgba(26, 26, 26, 0.08);
     
 }
 .card-header{
@@ -18,7 +18,7 @@ body{
     text-align:center;
 }
 
-#gsearch{
+#searchTab{
     background-color: #efeafc;
     width: 80%;
     padding: 3px;
